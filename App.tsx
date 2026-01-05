@@ -5,6 +5,7 @@ import { StorySection } from './sections/StorySection';
 import { HowItWorks } from './sections/HowItWorks';
 import { FarmlandInteractive } from './sections/FarmlandInteractive';
 import { Impact } from './sections/Impact';
+import { Leadership } from './sections/Leadership';
 import { TechSection } from './sections/TechSection';
 import { Footer } from './sections/Footer';
 import { Drone } from './components/Drone';
@@ -26,6 +27,7 @@ const App: React.FC = () => {
         <HowItWorks />
         <FarmlandInteractive />
         <Impact />
+        <Leadership />
         <TechSection />
       </main>
 
